@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Home {
 	WebDriver driver = null;
-	By myacct = By.linkText("MY ACCOUNT");
+	By myacct = By.linkText("My Account");
 	public Home(WebDriver driver)
 	{
 		this.driver = driver;
